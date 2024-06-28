@@ -1,0 +1,72 @@
+*{
+    /* margin: 0; */
+    /* padding: 0; */
+    /* font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */  
+    /* box-sizing: border-box; */
+}
+
+html{
+    margin: 10px 10px;
+    background-color: var(--light);
+}
+
+:root{
+
+    --priary-color: #ff9100;
+    --light: #fff;
+    --dark: #000;
+}
+
+.nav-bar a{
+    font-size: 18px;
+}
+
+.container{
+    position: relative;
+    top: 180px;
+    height: auto;
+    
+}
+
+.logo-text{
+    position: relative;
+    /* box-shadow: ; */
+}
+
+.choose-login{
+    display: inline-flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.text-36{
+     font-size: 36px;
+}
+
+.text-24{
+    font-size: 24px;
+}
+
+.txt-color{
+    color: var(--priary-color);
+}
+
+.form-card{
+    max-width: 600px;
+    top: 15%;
+}
+
+.form input, .form button{
+    border: 1px solid var(--priary-color);
+}
+
+.form button{
+    background-color: var(--priary-color);
+    border: 1px solid var(--priary-color);
+}
+
+.rem-me, .frg-pswd{
+    /* color: var(--priary-color); */
+}
+
+.rem-me{display: flex; align-items: center; gap: 3px;}
